@@ -1,4 +1,7 @@
-# ![Логотип Arch](img/arch-logo.svg) Установка Arch Linux
+![Логотип Arch для светлой темы](img/archlinux-logo-black.svg#gh-light-mode-only)
+![Логотип Arch для темной темы](img/archlinux-logo-white.svg#gh-dark-mode-only)
+
+# Установка Arch Linux
 
 Пошаговая инструкция по установке и базовой настройке Arch Linux.
 
