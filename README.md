@@ -1,4 +1,4 @@
-# 🐧 Установка Arch Linux
+# ![Логотип Arch](img/arch-logo.svg) Установка Arch Linux
 
 Пошаговая инструкция по установке и базовой настройке Arch Linux.
 
