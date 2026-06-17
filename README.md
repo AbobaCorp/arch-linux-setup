@@ -117,7 +117,7 @@ pacstrap /mnt base base-devel linux linux-firmware linux-headers nano vim bash-c
 ## Шаг 7. Генерация fstab
 
 ```bash
-genfstab -U /mnt >> /mnt/etc/fstab
+genfstab /mnt >> /mnt/etc/fstab
 ```
 
 ---
