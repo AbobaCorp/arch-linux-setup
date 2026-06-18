@@ -109,6 +109,7 @@ mount /dev/<диск3> /mnt/home
 | **Дисплейный менеджер** (выберите ОДИН) | `sddm` / `lightdm` / `lxdm` / `gdm` |
 | **Окружение рабочего стола** (выберите ОДНО) | `gnome` / `plasma` / `cinnamon` / `budgie` / `xfce4` / `lxqt` / `lxde` |
 | **Драйверы** (при необходимости) | `nvidia` (проприетарный драйвер NVIDIA) |
+| **Open-source драйверы** | `mesa intel-media-driver libva-intel-driver vulkan-intel vulkan-nouveau vulkan-radeon xf86-video-amdgpu xf86-video-ati xf86-video-nouveau` |
 
 **Пример команды установки (для XFCE4 и LXDM):**
 ```bash
