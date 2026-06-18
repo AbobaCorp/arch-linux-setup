@@ -116,6 +116,11 @@ mount /dev/<диск3> /mnt/home
 pacstrap /mnt base base-devel linux linux-firmware linux-headers nano vim bash-completion grub efibootmgr xorg ttf-ubuntu-font-family ttf-hack ttf-dejavu ttf-opensans sddm plasma
 ```
 
+**Установка всех open-source драйверов:**
+```bash
+pacstrap /mnt mesa intel-media-driver libva-intel-driver vulkan-intel vulkan-nouveau vulkan-radeon xf86-video-amdgpu xf86-video-ati xf86-video-nouveau
+```
+
 ---
 
 ## Шаг 7. Генерация fstab
