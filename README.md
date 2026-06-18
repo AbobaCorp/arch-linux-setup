@@ -106,6 +106,7 @@ mount /dev/<диск3> /mnt/home
 | **Необходимый минимум** | `base base-devel linux linux-firmware linux-headers nano vim bash-completion grub efibootmgr` |
 | **Дисплейный сервер** | `xorg` |
 | **Шрифты** | `ttf-ubuntu-font-family ttf-hack ttf-dejavu ttf-opensans` |
+| **+Рекомендуемый набор шрифтов** | `noto-fonts noto-fonts-cjk noto-fonts-emoji ttf-liberation ttf-jetbrains-mono ttf-cascadia-code` |
 | **Дисплейный менеджер** (выберите ОДИН) | `sddm` / `lightdm` / `lxdm` / `gdm` |
 | **Окружение рабочего стола** (выберите ОДНО) | `gnome` / `plasma` / `cinnamon` / `budgie` / `xfce4` / `lxqt` / `lxde` |
 | **Драйверы** (при необходимости) | `nvidia` (проприетарный драйвер NVIDIA) |
