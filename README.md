@@ -110,6 +110,7 @@ mount /dev/<диск3> /mnt/home
 | **Окружение рабочего стола** (выберите ОДНО) | `gnome` / `plasma` / `cinnamon` / `budgie` / `xfce4` / `lxqt` / `lxde` |
 | **Драйверы** (при необходимости) | `nvidia` (проприетарный драйвер NVIDIA) |
 | **Open-source драйверы** | `mesa intel-media-driver libva-intel-driver vulkan-intel vulkan-nouveau vulkan-radeon xf86-video-amdgpu xf86-video-ati xf86-video-nouveau` |
+| **Звук** (PipeWire) | `pipewire wireplumber pipewire-pulse pipewire-alsa` |
 
 **Пример команды установки (для KDE Plasma и SDDM):**
 ```bash
@@ -119,6 +120,11 @@ pacstrap /mnt base base-devel linux linux-firmware linux-headers nano vim bash-c
 **Установка всех open-source драйверов:**
 ```bash
 pacstrap /mnt mesa intel-media-driver libva-intel-driver vulkan-intel vulkan-nouveau vulkan-radeon xf86-video-amdgpu xf86-video-ati xf86-video-nouveau
+```
+
+**Установка PipeWire:**
+```bash
+pacstrap /mnt pipewire wireplumber pipewire-pulse pipewire-alsa
 ```
 
 ---
