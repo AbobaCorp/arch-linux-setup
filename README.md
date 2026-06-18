@@ -111,9 +111,9 @@ mount /dev/<диск3> /mnt/home
 | **Драйверы** (при необходимости) | `nvidia` (проприетарный драйвер NVIDIA) |
 | **Open-source драйверы** | `mesa intel-media-driver libva-intel-driver vulkan-intel vulkan-nouveau vulkan-radeon xf86-video-amdgpu xf86-video-ati xf86-video-nouveau` |
 
-**Пример команды установки (для XFCE4 и LXDM):**
+**Пример команды установки (для KDE Plasma и SDDM):**
 ```bash
-pacstrap /mnt base base-devel linux linux-firmware linux-headers nano vim bash-completion grub efibootmgr xorg ttf-ubuntu-font-family ttf-hack ttf-dejavu ttf-opensans lxdm xfce4
+pacstrap /mnt base base-devel linux linux-firmware linux-headers nano vim bash-completion grub efibootmgr xorg ttf-ubuntu-font-family ttf-hack ttf-dejavu ttf-opensans sddm plasma
 ```
 
 ---
