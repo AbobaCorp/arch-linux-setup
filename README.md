@@ -29,7 +29,10 @@
    ```bash
    nano /etc/pacman.d/mirrorlist
    ```
-   Проверьте, что `reflector` сгенерировал список зеркал. Если нет — закомментируйте все и раскомментируйте те, которыми хотите пользоваться.
+   Проверьте, что `reflector` сгенерировал список зеркал. Если нет — обновите список зеркал вручную, с помощью reflector:
+   ```bash
+   reflector --country Russia --latest 20 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
+   ```
 
 2. Настройте `pacman` для параллельной загрузки:
    ```bash
