@@ -131,6 +131,12 @@ pacstrap /mnt mesa intel-media-driver libva-intel-driver vulkan-intel vulkan-nou
 pacstrap /mnt pipewire wireplumber pipewire-pulse pipewire-alsa
 ```
 
+**Установка рекомендуемых шрифтов:**
+```bash
+pacstrap /mnt noto-fonts noto-fonts-cjk noto-fonts-emoji ttf-liberation ttf-jetbrains-mono ttf-cascadia-code
+```
+> 💡 **Совет:** Пакет `noto-fonts-cjk` добавляет поддержку китайских, японских и корейских иероглифов, а `noto-fonts-emoji` — полноценные цветные эмодзи. Без этих пакетов вместо отсутствующих символов будут отображаться пустые квадратики (☐), которые в типографике называют «tofu».
+
 ---
 
 ## Шаг 7. Генерация fstab
