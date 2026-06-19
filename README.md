@@ -277,7 +277,7 @@ sudo pacman -S bluez bluez-utils bluez-deprecated-tools bluez-obex bluez-mesh
 # Включаем автоматический запуск bluetooth.service
 sudo systemctl enable --now bluetooth.service
 ```
-> 💡 **Совет:** Для управления Bluetooth через графический интерфейс установите `blueman` (менеджер Bluetooth) или используйте встроенные средства вашего окружения рабочего стола. Например, если вами была установлена KDE plasma, то там уже установлен bluedevil, который интегрирует устройства Bluetooth в рабочую среду KDE.
+> 💡 **Совет:** Для управления Bluetooth через графический интерфейс установите `blueman` (менеджер Bluetooth) или используйте встроенные средства вашего окружения рабочего стола. Например, если вами была установлена KDE plasma, то там уже установлен `bluedevil`, который интегрирует устройства Bluetooth в рабочую среду KDE.
 
 ---
 
